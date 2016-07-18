@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bank of Bin</title>
+</head>
+<body>
+	<a href="index.html">Back to home</a>
+	<br>
+	<br>
+	<form name="bank-form" id="bank-form" action="bank-form_submit" method="get" accept-charset="utf-8">
+		<fieldset>
+			<legend>Personal Information</legend>
+			<p><label>First Name:<input type="text" name="first-name"></label></p>
+			<p><label>Middle Initial:<input type="text" name="middle-ini"></label></p>
+			<p><label>Last Name:<input type="text" name="last-name"></label></p>
+			<p><label>Address:<input type="text" name="app-address"></label></p>
+			<p><label>Occupaton:<input type="text" name="app-occupation"></label></p>
+			<p><label>Employer:<input type="text" name="app-employer"></label></p>
+			<p><label>Empolyer Address:<input type="text" name="employer-add"></label></p>
+		</fieldset>
+		<fieldset>
+				<legend>Additional Information</legend>
+		<p><lable for="loantype">Type of Loan:<select name="loantype">
+			<option value="commercial">Commercial</option>
+			<option value="real estate">Real estate</option>
+			<option value="personal">Personal</option>
+			<option value="mortgage">Mortgage</option>
+		</select></lable></p>
+		<p><label>Requested Amount of Loan:<input type="number" name="loan-amount"></label></p>
+		<p>Loan Length:
+			<label><input type="radio" name="loan-length" value="five year" id="five year">5 years</label>
+			<label><input type="radio" name="loan-length" value="fiften year" id="five year">15 years</label>
+			<label><input type="radio" name="loan-length" value="thirty year" id="five year">30 years</label>
+		</p>
+		<p>Special Condtions (choose anyone applicalbe):
+			<label><input type="checkbox" name="special conditions" value="I have a down payment">I have a down payment</label>
+			<label><input type="checkbox" name="special conditions" value="Out-of-state resident">Out-of-state resident</label>
+			<label><input type="checkbox" name="special conditions" value="Married">Married</label>
+			<label><input type="checkbox" name="special conditions" value="Loan will be co-signed">Loan will be co-signed</label>
+		</p>
+		<p><label>Additional Comments:<br>
+		<textarea name=""></textarea></textarea></label></p>
+		</fieldset>
+		<fieldset>
+			<legend>Applicant's Contact Information</legend>
+			<p><label>Email:<input type="email" name="app-email"></label></p>
+			<p><label>Phone:<input type="tel" name="app-phone"></label></p>
+			<p><label>LinkedIn URL:<input type="url" name="app-linkedin"></label></p>
+		</fieldset>
+		<p><input type="button" name="submit" value="Submit"></p>
+
+
+
+
+	</form>
+</body>
+</html>
